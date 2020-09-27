@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <style type="text/css">
+      body {
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000000;
+        background-image: url('../../src/loader.gif');
+        background-size: 32px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .github {
+        position: fixed;
+        border-radius: 41px;
+        bottom: 1.5rem;
+        right: 1.5rem;
+        display: flex;
+        align-items: center;
+        padding: 0.75rem 1.25rem 0.75rem 1.5rem;
+        background-color: #ffffff;
+        box-shadow: -2px 2px 50px #00000052;
+        transition: 0.25s;
+      }
+      .github:hover {
+        transform: scale(0.95);
+      }
+      .github img {
+        width: 24px;
+        height: 24px;
+      }
+      .github p {
+        font-family: sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        margin: 0;
+        padding-right: 0.5rem;
+        color: #000;
+      }
+      .github a,
+      .github a:hover,
+      .github a:visited {
+        color: #000000;
+        text-decoration: none;
+      }
+    </style>
+
+    <!-- 📀 Load D3 framework data processing -->
+    <script src="../sources/d3.min.js"></script>
+
+    <body>
+
+      <a href="https://github.com/Fraaanz/Data-Driven-Generative-Design-Basics/blob/master/demo-projects/demo-pedometer-data-two.js">
+        <div class="github">
+          <p>
+            source code
+          </p>
+          <img class="platformlogo" src="../../src/git.png" alt="GitHub">
+        </div>
+      </a>
+
+      <!-- 📀 Load your JS file here 👇👇👇👇👇 -->
+      <script type="module" src="demo-pedometer-data-two.js"></script>
+
+    </body>
+  </head>
+</html>

@@ -22,31 +22,28 @@ a {
 header {
   position: absolute;
   width: 100vw;
-  height: calc(100vh - calc(100vh - 100%));
+  height: 50vh;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   z-index: 2; }
-  header .site-title {
-    position: relative;
-    top: -2rem; }
-    header .site-title h1,
-    header .site-title h2 {
-      font-size: 0.75rem;
-      font-weight: 400;
-      letter-spacing: 0.25rem;
-      margin: 0;
-      text-align: center; }
-      @media only screen and (min-width: 768px) {
-        header .site-title h1,
-        header .site-title h2 {
-          font-size: 1rem; } }
-    header .site-title h1 {
-      font-weight: 700;
-      margin-bottom: 0.33rem; }
-      @media only screen and (min-width: 768px) {
-        header .site-title h1 {
-          margin-bottom: 0.5rem; } }
+  header .site-title h1,
+  header .site-title h2 {
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.25rem;
+    margin: 0;
+    text-align: center; }
+    @media only screen and (min-width: 768px) {
+      header .site-title h1,
+      header .site-title h2 {
+        font-size: 1rem; } }
+  header .site-title h1 {
+    font-weight: 700;
+    margin-bottom: 0.33rem; }
+    @media only screen and (min-width: 768px) {
+      header .site-title h1 {
+        margin-bottom: 0.5rem; } }
   header .contact {
     position: absolute;
     top: 24px;
